@@ -1,3 +1,4 @@
+#источник https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html
 4 пробела
 выравнивание по разделителю 
 # Выровнено по открывающему разделителю
@@ -50,4 +51,6 @@ import foo.bar.yourclass
 И используйте "myclass.MyClass" и "foo.bar.yourclass.YourClass".
 from import * - не использовать
 нет пробелов возле ()[]{};:, перед([
-более 1 пробела вокруг = и др.
+1 пробел вокруг = (кроме именованного аргумента или default) += -= == < > != <> <= >= in not in is is not and or not, но:
+hypot2 = x*x + y*y
+c = (a+b) * (a-b)
