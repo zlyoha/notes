@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/zlyoha-notes/badge/?version=latest)](https://zlyoha-notes.readthedocs.io/en/latest/?badge=latest)
+
 ## быстрые ссылки
 [Список интересных ресурсов](awesomes.rst)
 
