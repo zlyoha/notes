@@ -4,9 +4,10 @@
 
 Сайты
 -----
-https://www.gitignore.io/  
+https://www.gitignore.io/
+
 https://awesomelists.top/
 
 youtube playlists
 -----------------
-.. _Django3: https://www.youtube.com/playlist?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq 
+`Django3 <https://www.youtube.com/playlist?list=PLF-NY6ldwAWrb6nQcPL21XX_-AmivFAYq>`_
