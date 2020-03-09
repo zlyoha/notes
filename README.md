@@ -1,9 +1,9 @@
 ## быстрые ссылки
-[awesomes.rst](Список awesome-сайтов и прочих интересных ресурсов)
+[Список интересных ресурсов](awesomes.rst)
 
-[bash]
+[bash](bash)
 
-[python]
+[python](python)
 
 ## Welcome to GitHub Pages
 
