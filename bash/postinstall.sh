@@ -16,3 +16,6 @@ shopt -s histappend
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 EOF
 
+systemctl disable --now apt-daily{,-upgrade}.{timer,service}
+
+sudo apt install -y vlc terminator google-chrome 
