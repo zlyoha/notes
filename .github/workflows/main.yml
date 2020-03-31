@@ -13,9 +13,12 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
+  lint:
+    - name: shellcheck
+      uses: ludeeus/action-shellcheck@0.1.0
   build:
     # The type of runner that the job will run on
-    runs-on: koalaman/shellcheck:stable
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -31,6 +34,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+    - name: Install shellcheck
+      run: pip install shellcheck
         
     - name: Shell check
       run: shellcheck ./**/*.sh
