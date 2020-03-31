@@ -37,7 +37,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: Install shellcheck
-      run: apt install -y shellcheck
+      run: sudo apt install -y shellcheck
         
     - name: Shell check
       run: shellcheck ./**/*.sh
