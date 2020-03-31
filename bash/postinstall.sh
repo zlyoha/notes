@@ -19,3 +19,6 @@ EOF
 systemctl disable --now apt-daily{,-upgrade}.{timer,service}
 
 sudo apt install -y vlc terminator google-chrome 
+
+#ubuntu
+gsettings set com.ubuntu.update-notifier no-show-notifications true
